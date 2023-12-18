@@ -76,6 +76,26 @@ SELECT * FROM Customers WHERE CustomerID = 1;
 
 <i> :pushpin: Exemplos de BETWEEN, LIKE & IN: </i>
 
+:paperclip: <i>A instrução SQL a seguir seleciona produtos com preço entre 300 e 800:</i>
+```
+SELECT * FROM products WHERE price BETWEEN 300 AND 800;
+```
+
+:paperclip: <i>A instrução SQL a seguir seleciona produtos com nomes específicos:</i>
+```
+SELECT * FROM products WHERE product_name IN ('Laptop', 'Tablet', 'Camera');
+```
+
+:paperclip: <i>A instrução SQL a seguir seleciona produtos cujo nome começa com 'S':</i>
+```
+SELECT * FROM products WHERE product_name LIKE 'S%';
+```
+
+:paperclip: <i>A instrução SQL a seguir seleciona produtos cujo nome nome contém 'phone':</i>
+```
+SELECT * FROM products WHERE product_name LIKE '%phone%';
+```
+
 ## :anchor: Comando UPDATE
 ## :anchor: Comando DELETE
 ## :anchor: Comando INSERT INTO
