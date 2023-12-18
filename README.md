@@ -1,4 +1,3 @@
-# BD
 comandos &amp; exemplos de BD
 
 # MENU BD :mag:
