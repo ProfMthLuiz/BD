@@ -3,14 +3,16 @@ comandos &amp; exemplos de BD
 
 # MENU BD :mag:
 - :pushpin: [Select](#bookmark-comando-select) <br>
-- :pushpin: [Select]() <br>
-- :pushpin: [Select](#comando-select) <br>
-- :pushpin: [Select](#comando-select) <br>
-- :pushpin: [Select](#comando-select) <br>
-- :pushpin: [Select](#comando-select) <br>
-- :pushpin: [Select](#comando-select) <br>
-- :pushpin: [Select](#comando-select) <br>
-- :pushpin: [Select](#comando-select) <br>
+- :pushpin: [Update](#bookmark-comando-update) <br>
+- :pushpin: [Delete](#bookmark-comando-delete) <br>
+- :pushpin: [Insert Into](#bookmark-comando-insert-into) <br>
+- :pushpin: [Create Database](#bookmark-comando-create-database) <br>
+- :pushpin: [Alter Database](#bookmark-comando-alter-database) <br>
+- :pushpin: [Create Table](#bookmark-comando-create-table) <br>
+- :pushpin: [Alter Table](#bookmark-comando-alter-table) <br>
+- :pushpin: [Drop Table](#bookmark-comando-drop-table) <br>
+- :pushpin: [Create Index](#bookmark-comando-create-index) <br>
+- :pushpin: [Drop Index](#bookmark-comando-drop-index) <br>
 
 <br>
 <br>
@@ -51,7 +53,7 @@ SELECT COUNT(DISTINCT Country) FROM Customers;
 ## :bookmark: Comando CREATE DATABASE
 ## :bookmark: Comando ALTER DATABASE
 ## :bookmark: Comando CREATE TABLE
-## :bookmark: Comando ALTER TABE
+## :bookmark: Comando ALTER TABLE
 ## :bookmark: Comando DROP TABLE
 ## :bookmark: Comando CREATE INDEX
 ## :bookmark: Comando DROP INDEX
