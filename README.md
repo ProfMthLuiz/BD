@@ -3,6 +3,7 @@ comandos &amp; exemplos de BD
 
 # MENU BD :mag:
 - :pushpin: [Select](#bookmark-comando-select) <br>
+- :pushpin: [Where](#bookmark-comando-where) <br>
 - :pushpin: [Update](#bookmark-comando-update) <br>
 - :pushpin: [Delete](#bookmark-comando-delete) <br>
 - :pushpin: [Insert Into](#bookmark-comando-insert-into) <br>
@@ -46,6 +47,20 @@ SELECT COUNT(DISTINCT Country) FROM Customers;
 <br>
 <br>
 <br>
+
+## :bookmark: Comando WHERE
+É uma cláusula opcional que permite filtrar os resultados com base em uma condição específica.
+
+:paperclip: <i>A instrução SQL a seguir seleciona TODOS os "Customers" do "Mexico":</i>
+```
+SELECT * FROM Customers WHERE Country = 'Mexico';
+```
+
+O MySQL requer aspas simples em torno de valores de texto (a maioria dos sistemas de banco de dados também permite aspas duplas). No entanto, os campos numéricos não devem ser colocados entre aspas.
+:paperclip: <i>A instrução SQL a seguir seleciona TODOS os "Customers" cujo o "CustomerID" seja 1:</i>
+```
+SELECT * FROM Customers WHERE CustomerID = 1;
+```
 
 ## :bookmark: Comando UPDATE
 ## :bookmark: Comando DELETE
