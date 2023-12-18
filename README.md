@@ -96,6 +96,40 @@ SELECT * FROM products WHERE product_name LIKE 'S%';
 SELECT * FROM products WHERE product_name LIKE '%phone%';
 ```
 
+<br>
+<strong>O comando WHERE, pode ser combinado com os OPERADORES AND, OR e NOT:</strong>
+<br>
+<br>
+
+:pushpin:<i>WHERE com AND</i>
+<br>
+
+:paperclip: <i>A instrução SQL a seguir seleciona produtos com preço entre 100 e 500 E categoria é 'Electronics':</i>
+```
+SELECT * FROM products WHERE price BETWEEN 100 AND 500 AND category = 'Electronics';
+```
+
+<br>
+
+:pushpin:<i>WHERE com OR</i>
+<br>
+
+:paperclip: <i>A instrução SQL a seguir seleciona produtos cujo 'price' é menor que 100 OU cuja 'category' é 'Accessories':</i>
+```
+SELECT * FROM products WHERE price < 100 OR category = 'Accessories';
+```
+
+<br>
+
+:pushpin:<i>WHERE com NOT</i>
+<br>
+
+:paperclip: <i>A instrução SQL a seguir selecionaprodutos cujo price NÃO é maior que 200.:</i>
+```
+SELECT * FROM products WHERE NOT price > 200;
+```
+<br>
+
 ## :anchor: Comando UPDATE
 ## :anchor: Comando DELETE
 ## :anchor: Comando INSERT INTO
