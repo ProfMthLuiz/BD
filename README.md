@@ -2,8 +2,8 @@
 comandos &amp; exemplos de BD
 
 # MENU BD :mag:
-- :pushpin: [Select](#comando-select) <br>
-- :pushpin: [Select](#comando-select) <br>
+- :pushpin: [Select](#bookmark-comando-select) <br>
+- :pushpin: [Select]() <br>
 - :pushpin: [Select](#comando-select) <br>
 - :pushpin: [Select](#comando-select) <br>
 - :pushpin: [Select](#comando-select) <br>
